@@ -22,15 +22,15 @@ General:
 
   Cluster:
     SendBufferSize: 100
-    ClientCertificate: ""
-    ClientPrivateKey: ""
-    ListenPort: ""
-    ListenAddress: ""
-    ServerCertificate: ""
-    ServerPrivateKey: ""
+    ClientCertificate: 
+    ClientPrivateKey: 
+    ListenPort: 
+    ListenAddress: 
+    ServerCertificate: 
+    ServerPrivateKey: 
 
   BootstrapMethod: file
-  BootstrapFile: ""
+  BootstrapFile: 
 
   LocalMSPDir: msp
   LocalMSPID: SampleOrg
@@ -45,15 +45,15 @@ General:
       Hash: SHA2
       Security: 256
       FileKeyStore:
-        KeyStore: ""
+        KeyStore: 
     PKCS11:
-      Library: ""
-      Label: ""
-      Pin: ""
-      Hash: ""
-      Security: ""
+      Library: 
+      Label: 
+      Pin: 
+      Hash: 
+      Security: 
       FileKeyStore:
-        KeyStore: ""
+        KeyStore: 
 
   Authentication:
     TimeWindow: 15m
@@ -85,28 +85,28 @@ Kafka:
 
   TLS:
     Enabled: false
-    PrivateKey: ""
-    Certificate: ""
+    PrivateKey: 
+    Certificate: 
     RootCAs: []
 
   SASLPlain:
     Enabled: false
-    User: ""
-    Password: ""
+    User: 
+    Password: 
 
-  Version: ""
+  Version: 
 
 Debug:
-  BroadcastTraceDir: ""
-  DeliverTraceDir: ""
+  BroadcastTraceDir: 
+  DeliverTraceDir: 
 
 Operations:
   ListenAddress: 127.0.0.1:8443
 
   TLS:
     Enabled: false
-    Certificate: ""
-    PrivateKey: ""
+    Certificate: 
+    PrivateKey: 
     ClientAuthRequired: false
     ClientRootCAs: []
 
@@ -117,15 +117,15 @@ Metrics:
     Network: udp
     Address: 127.0.0.1:8125
     WriteInterval: 30s
-    Prefix: ""
+    Prefix: 
 
 Admin:
   ListenAddress: 127.0.0.1:9443
 
   TLS:
     Enabled: false
-    Certificate: ""
-    PrivateKey: ""
+    Certificate: 
+    PrivateKey: 
     ClientAuthRequired: true
     ClientRootCAs: []
 
